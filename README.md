@@ -1,4 +1,4 @@
-Hi, I’m Sude 
+Hi, I’m Sude 👋
 
 Data Engineering–Focused | Analytics & ML Aware
 
@@ -9,12 +9,19 @@ While my primary focus is data engineering, my background in statistics and appl
 ⸻
 
   What I Work On
-	•	End-to-end ETL pipelines (APIs → transformation → relational storage)
-	•	Analytics-oriented data modeling (PostgreSQL)
-	•	Containerized and reproducible data environments (Docker)
-	•	Distributed data processing with PySpark
-	•	Data quality, preprocessing, and feature design informed by statistical thinking
 
+• Designing data pipelines that transform raw, external data into structured,
+  analytics-ready datasets
+• Building ETL workflows that support downstream analytics and machine learning
+  use cases
+• Modeling and storing data in relational databases (PostgreSQL) with a focus on
+  analytical query patterns
+• Working with distributed data processing frameworks (PySpark) to understand
+  scalability and performance trade-offs
+• Creating reproducible data environments using containerization (Docker)
+• Applying statistical thinking to data quality, preprocessing, feature design,
+  and validation
+• Bridging data engineering decisions with analytics and ML consumption needs
 ⸻
 
   Featured Projects
@@ -49,34 +56,47 @@ Highlights
 
   Research & Applied Statistics
 
-TÜBİTAK 2209 – Partial Least Squares Regression Packages
+TÜBİTAK 2209 – Partial Least Squares Regression R Packages (PLSRegs)
 
-Led a TÜBİTAK-supported applied research project focused on modeling high-dimensional datasets with multicollinearity.
-	•	Developed comprehensive R packages implementing classical and modern PLSR algorithms
-	•	Focused on computational efficiency, numerical stability, and practical usability
-	•	Translated advanced statistical methodology into reusable, production-quality software
+Led a TÜBİTAK 2209-supported applied research project focused on addressing the challenges of high-dimensional regression problems, including multicollinearity, large numbers of explanatory variables, and scenarios where the number of predictors exceeds the number of observations.
+
+The project concentrated on Partial Least Squares Regression (PLSR) from a software and algorithmic perspective. I developed the PLSRegs R package, which consolidates classical PLSR algorithms (such as NIPALS and SIMPLS) alongside more recent and computationally efficient re-orthogonalization-based methods (e.g., Bidiag-based approaches, fast PLS, hybrid PLS, and direct-score methods).
+
+The package provides:
+	•	Stable and efficient model estimation across multiple PLSR variants
+	•	Prediction functionality for new datasets
+	•	Example large-scale real-world datasets to demonstrate practical usability
+
+This project emphasized software engineering, algorithmic implementation, and usability, and strengthened my ability to translate statistical methods into reusable, production-quality analytical tools.
 
   PLSRegs: https://github.com/sudegurer/PLSRegs
-  robsfplsr: https://github.com/sudegurer/robsfplsr
 
 ⸻
 
-Peer-Reviewed Publication (2024)
+Peer-Reviewed Journal Article – Statistics and Computing (2024)
 
-Statistics and Computing (Springer)
+Co-authored a peer-reviewed journal article proposing a novel robust and locally sparse functional Partial Least Squares method for scalar-on-function regression.
 
-Proposed a robust and locally sparse functional PLS method for scalar-on-function regression, enabling stable estimation and reliable predictions in the presence of outliers.
-	•	Robust decomposition via iterative reweighting
-	•	Extensive Monte Carlo simulations and real-data validation
-	•	Implementation available as an R package
+This research is methodologically independent from the TÜBİTAK project and focuses on the development of a new statistical modeling approach that integrates:
+	•	Robust M-regression
+	•	Sparsity for local interpretability
+	•	Functional data analysis within the PLS framework
 
-  https://link.springer.com/article/10.1007/s11222-024-10464-y
+The method enables reliable estimation and prediction in the presence of outliers and leverage points, while accurately identifying zero and non-zero subregions of the regression coefficient function.
+
+The proposed approach was evaluated through extensive Monte Carlo simulation studies and a real-world empirical dataset, demonstrating superior robustness compared to existing methods while maintaining competitive performance on clean data.
+
+The methodology has been implemented in the robsfplsr R package, providing a reproducible and accessible software implementation of the proposed model.
+
+  robsfplsr: https://github.com/sudegurer/robsfplsr
+  Published in Statistics and Computing (Springer)
+https://link.springer.com/article/10.1007/s11222-024-10464-y
 
 ⸻
 
   Contact & Links
 	•	GitHub: https://github.com/sudegurer
-	•	LinkedIn: (add if you want)
+	•	LinkedIn: https://www.linkedin.com/in/sude-g-944b87207/
 
 ⸻
 
