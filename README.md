@@ -100,4 +100,20 @@ https://link.springer.com/article/10.1007/s11222-024-10464-y
 
 ⸻
 
+  Currently Learning & Exploring
+
+• Advanced SQL patterns for analytics (window functions, query optimization)
+
+• Data modeling techniques for analytical workloads (star schema, dimensional modeling)
+
+• Production-oriented data engineering practices (logging, monitoring, data validation)
+
+• Workflow orchestration concepts (DAG-based pipelines, scheduling fundamentals)
+
+• Improving scalability and performance in distributed data processing (PySpark)
+
+• Designing data pipelines with stronger ML and analytics integration
+
+⸻
+
 Primarily targeting Data Engineering roles while remaining fluent in analytics and ML-oriented data systems.
